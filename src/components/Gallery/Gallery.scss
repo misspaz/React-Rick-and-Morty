@@ -1,0 +1,14 @@
+.c-gallery {
+  display: block;
+  &__item {
+    background-color: var(--color-primary--light);
+    padding: 14px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 476px;
+    margin: 10px;
+  }
+}

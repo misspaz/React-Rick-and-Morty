@@ -1,0 +1,30 @@
+.menu{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: #9CEA2E;
+
+    &__link{
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #9CEA2E;
+
+    }
+}
+
+a:hover{
+    color: #9CEA2E;
+}
+
+a:visited{
+    color: #9CEA2E;
+}
+
+a:focus{
+    color: #9CEA2E;
+}

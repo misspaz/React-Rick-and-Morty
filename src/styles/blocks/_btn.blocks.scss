@@ -1,0 +1,16 @@
+.b-btn {
+  background-color: var(--color-primary--light);
+  font-family: Arial;
+  text-transform: uppercase;
+  padding: 16px;
+  width: 30%;
+  border-radius: 27px;
+  border: 0;
+  color: var(--color-white);
+  font-weight: 800;
+  border: 2px solid transparent;
+  &--sec {
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+  }
+}

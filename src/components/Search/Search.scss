@@ -1,0 +1,17 @@
+.c-search {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  &__input {
+    background-color: #090909;
+    ;
+    border-bottom: solid 1px white;
+    width: 300px;
+    color: white;
+    font-family: sans-serif;
+  }
+}
